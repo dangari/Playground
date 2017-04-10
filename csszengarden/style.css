@@ -1,0 +1,146 @@
+/* Main Primary color */
+body {
+  background: white;
+  background-image: url(images/footer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: 100%;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #333;
+  margin: 0px;
+}
+h3 {
+  color: #516473;
+  font-size: 1.4em;
+  margin-bottom: 0px;
+}
+p {
+  margin-top: 5px;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #394A58;
+}
+a:hover {
+  text-decoration: underline;
+}
+section {
+  background-color: white;
+}
+header {
+  background-color: #22323E;
+  background-image: url(images/wave.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px;
+  padding-left: 18%;
+}
+header h1 {
+  font-size: 3.0em;
+  padding-bottom: 0px;
+  margin-bottom: 5px;
+}
+header h2 {
+  font-size: 1.5em;
+  margin-top: 5px;
+}
+.summary {
+  margin-top: 15px;
+  padding: 0px 15%;
+  font-size: 1.2em;
+  color: #808080;
+}
+.summary p {
+  margin: 10px;
+}
+.summary p + p {
+  font-size: 0.8em;
+  padding-left: 10px;
+}
+.preamble {
+  padding: 10px 15%;
+}
+.main {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(images/header.jpg);
+  background-attachment: fixed;
+  margin: 0px;
+  padding: 5px 15%;
+  padding-bottom: 15px;
+  color: #bec9d2;
+  font-size: 0.9em;
+}
+.main h3 {
+  padding-top: 30px;
+  color: #a1b0bc;
+}
+.main a {
+  text-decoration: none;
+  color: white;
+}
+.main a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+footer {
+  background: #152735;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 0.8em;
+  text-align: right;
+  padding-right: 15px;
+}
+.sidebar {
+  padding: 30px 15px 100px;
+}
+.sidebar:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.sidebar .wrapper {
+  text-align: center;
+  width: 100%;
+}
+.sidebar .wrapper .design-archives,
+.sidebar .wrapper .design-selection,
+.sidebar .wrapper .zen-resources {
+  padding: 20px;
+  margin: 10px;
+  width: 20%;
+  height: 150px;
+  text-align: left;
+  display: inline-block;
+  border-radius: 50%;
+  background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #c8e2f5 42%, rgba(166, 208, 239, 0.7) 68%, rgba(125, 185, 232, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, #c8e2f5 42%, rgba(166, 208, 239, 0.7) 68%, rgba(125, 185, 232, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, #ffffff 0%, #c8e2f5 42%, rgba(166, 208, 239, 0.7) 68%, rgba(125, 185, 232, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#007db9e8', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+.sidebar .wrapper .design-selection {
+  height: 300px;
+  width: 300px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.sidebar .wrapper .zen-resources {
+  height: 200px;
+  width: 200px;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+.sidebar .wrapper .design-archives {
+  height: 170px;
+  width: 170px;
+  padding-left: 30px;
+  padding-top: 30px;
+}

@@ -1,0 +1,39 @@
+// main: style.less
+.main {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.3)
+    ), url(./images/header.jpg);
+
+    background-attachment: fixed;
+  margin: 0px;
+  padding: 5px 15%;
+  padding-bottom: 15px;
+  color: lighten(@color-primary-1, 40%);
+  font-size: 0.9em;
+
+  h3 {
+    padding-top: 30px;
+    color: lighten(@color-primary-1, 30%);
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    &:hover{
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}
+
+footer {
+  background: @color-primary-3;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 0.8em;
+  text-align: right;
+  padding-right: 15px;
+}

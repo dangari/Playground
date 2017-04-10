@@ -1,0 +1,44 @@
+// out: ../style.css, sourcemap: false, compress: false
+
+@color-primary-0: #22323E;	/* Main Primary color */
+@color-primary-1: #516473;
+@color-primary-2: #394A58;
+@color-primary-3: #152735;
+@color-primary-4: #091925;
+
+body{
+  background: white;
+  background-image: url(./images/footer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: 100%;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #333;
+  margin: 0px;
+}
+
+h3 {
+  color: @color-primary-1;
+  font-size: 1.4em;
+  margin-bottom: 0px;
+}
+
+p {
+  margin-top: 5px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: @color-primary-2;
+
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+@import "headersection.less";
+@import "mainarea.less";
+@import "bottom.less";

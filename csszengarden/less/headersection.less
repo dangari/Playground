@@ -1,0 +1,45 @@
+// main: style.less
+section {
+  background-color: white;
+}
+
+header {
+  background-color: @color-primary-0;
+  background-image: url(./images/wave.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px;
+  padding-left: 18%;
+
+  h1{
+    font-size: 3.0em;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+  }
+
+  h2{
+    font-size: 1.5em;
+    margin-top: 5px;
+  }
+}
+
+.summary {
+  margin-top: 15px;
+  padding: 0px 15%;
+  font-size: 1.2em;
+  color: lighten(#333, 30%);
+
+  p{
+    margin: 10px;
+
+    +p{
+      font-size: 0.8em;
+      padding-left: 10px;
+    }
+  }
+}
+
+.preamble {
+    padding: 10px 15%;
+}
